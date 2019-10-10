@@ -1,0 +1,262 @@
+/* Elements */
+
+body {
+	background-color: #73828c;
+	color: black;
+	font-family: sans-serif;
+	line-height: 0;
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #00ffff 0%, #ffff99 100%);
+}
+
+.circle {
+	width: 5em;
+	height: 5em;
+	background-color: #0000cc;
+	border-radius: 80%;
+	position: absolute;
+	left: 47.5%;
+	top: 17%;
+	 background: linear-gradient(to top left, #33ccff 0%, #ff99cc 100%);
+	 }
+
+.line {
+	height: 4px;
+	width: 100%;
+	background-color:  #66ffb3;
+	transform: rotate(70deg);
+}
+
+.line-2 {
+	transform: rotate(110deg);
+	position: absolute;
+	top: 0em;
+	width: 100%;
+}
+
+.circle-2 {
+	width: 30em;
+	height: 30em;
+	background-color: #ff9933;
+	border-radius: 50%;
+	position: absolute;
+	top : 40%;
+	 background: linear-gradient(to top right, #66ffff 0%, #ff66ff 100%);
+	 box-shadow:  40px 60px 15px 5px  #862d59;
+
+}
+
+.line-3 {
+	width: 15%;
+	height: 110px;
+	border-width: 1em;
+	border-color: white;
+	position: absolute;
+    border-color: #ffe866;
+    transform: rotate(180deg);
+    left: 5em;
+    transform: skew(45deg);
+    background: linear-gradient(to bottom, #99ffcc 0%, #ffff99 100%);
+}
+
+.line-4 {
+	width:15%;
+	height: 110px;
+	border-width: 1em;
+	border-color: white;
+	position: absolute;
+	background-color: #ffff66;
+	transform: rotate(180deg);
+	left: 5em;
+	top: 115px;
+	transform: skew(-45deg);
+	background: linear-gradient(to bottom, #ffff99 0%, #99ffcc 100%);
+
+}
+
+.line-5 {
+	width: 12%;
+	height: 80px;
+	position: absolute;
+	transform: rotate(180deg);
+	left: 4em;
+	top: 230px;
+	transform: skew(45deg);
+	background: linear-gradient(to bottom, #99ffcc 0%, #ffff99 100%);
+}
+
+.line-6 {
+	width: 12%;
+	height: 80px;
+	position: absolute;
+	transform: rotate(180deg);
+	left: 4em;
+	top: 312px;
+	transform: skew(-45deg);
+	background: linear-gradient(to bottom, #ffff99 0%, #99ffcc 100%);
+
+}
+
+.line-7 {
+	width: 12%;
+	height:120px;
+	position: absolute;
+	transform: rotate(180deg);
+	left: 20em;
+	top: 115px;
+	transform: skew(-45deg);
+	background: linear-gradient(to bottom, #ffffff 0%, #00ffff 100%);
+}
+
+.line-8 {
+	width:12%;
+	height: 120px;
+	position: absolute;
+	transform: rotate(180deg);
+	left: 20em;
+	top: 237px;
+	transform: skew(45deg);
+	background: linear-gradient(to bottom, #00ffff 0%, #ffffff 100%);
+}
+
+.line-9 {
+	width:10%;
+	height :100px;
+	position: absolute;
+	transform: rotate(180deg);
+	left: 31.25em;
+	top: 134px;
+	transform: skew(-45deg);
+	background: linear-gradient(to bottom, #ffffff 0%, #00ffff 100%);
+
+}
+
+.line-10 {
+	width: 10%;
+	height: 100px;
+	position: absolute;
+	transform: rotate(180deg);
+	left: 31.25em;
+	top: 238px;
+	transform: skew(45deg);
+	background: linear-gradient(to bottom, #00ffff 0%, #ffffff 100%);
+}
+
+.line-11 {
+	width:5%;
+	height: 60px;
+	position: absolute;
+	transform: rotate(180deg);
+	left: 40em;
+	top: 175px;
+	transform: skew(-45deg);
+	background: linear-gradient(to bottom, #ffffff 0%, #00ffff 100%);
+}
+
+.line-12 {
+	width:5%;
+	height: 60px;
+	position: absolute;
+	transform: rotate(180deg);
+	left: 40em;
+	top: 238px;
+	transform: skew(45deg);
+	background: linear-gradient(to bottom, #00ffff 0%, #ffffff 100%);
+}
+
+.circle-4 {
+	height: 1em;
+	width: 1em;
+	background: linear-gradient(to bottom, #ffffff 0%, #ff0066 100%);
+	left: 20.5em;
+	top: 172px;
+}
+
+.circle-5 {
+	width: 15em;
+	height: 15em;
+	background-color: #ff9933;
+	border-radius: 50%;
+	position: absolute;
+	top : 60%;
+	left: 30%;
+	 background: linear-gradient(to bottom, #ffff66 0%, #ff9933 100%);
+	 box-shadow:  30px 50px 15px 2px #b32400;
+	
+}
+
+.line-13 {
+	width: 7%;
+	height:100px;
+	position: absolute;
+	transform: rotate(360deg);
+	transform: skew(45deg);
+	right: 15%;
+	top: 350px;
+	background: linear-gradient(to bottom, #ff9933 0%, #ff0000 100%);
+
+}
+
+.line-14 {
+	width: 7%;
+	height: 100px;
+	position: absolute;
+	transform: rotate(360deg);
+	transform: skew(-45deg);
+	right: 8%;
+	top:350px;
+	background: linear-gradient(to bottom, #ff0000 0%, #ff9933 100%);
+
+
+}
+
+.line-15 {
+	width: 3%;
+	height: 40px;
+	position: absolute;
+	transform: rotate(360deg);
+	transform: skew(45deg);
+	right: 15%;
+	top: 330px;
+	background: linear-gradient(to bottom, #ff9933 0%, #ff0000 100%);
+
+}
+
+.line-16 {
+	width:3%;
+	height: 40px;
+	position: absolute;
+	transform: rotate(360deg);
+	transform: skew(-45deg);
+	right: 12%;
+	top: 330px;
+	background: linear-gradient(to bottom, #ff0000 0%, #ff9933 100%);
+
+}
+
+.line-17 {
+	width: 1.5%;
+	height: 20px;
+	position: absolute;
+	transform: rotate(360deg);
+	transform: skew(45deg);
+	right: 15%;
+	top: 315px;
+	background: linear-gradient(to bottom, #ff9933 0%, #ff0000 100%);
+
+}
+
+.line-18 {
+	width: 1.5%;
+	height: 20px;
+	position: absolute;
+	transform: rotate(360deg);
+	transform: skew(-45deg);
+	right: 13.45%;
+	top: 315px;
+	background: linear-gradient(to bottom, #ff0000 0%, #ff9933 100%);
+
+
+}
